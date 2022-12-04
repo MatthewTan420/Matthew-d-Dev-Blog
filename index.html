@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Asg1_ID</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Work+Sans:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="stylesheet.css"
+      type="text/css"
+      media="all"
+    />
+
+    <style></style>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="parallax"></div>
+    <header class="siteheader">
+      <div class="site-title">Martin's Portfolio</div>
+      <div class="site-description">Engineer</div>
+      <nav class="main-navigation">
+        <ul>
+          <li><a href="#page-home">Home</a></li>
+          <li><a href="#page-about">About</a></li>
+          <li><a href="#page-achieve">Achievements</a></li>
+          <li><a href="#page-others">Others</a></li>
+          <li><a href="#page-contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button onclick="myFunction()", type="button">Toggle dark mode</button>
+    </header>
+    
+    <div class="parallax"></div>
+    <main class="home">
+      <div class="home-page">
+        <h2 class="page-home">Home</h2>
+        <p>This is my portfolio where I will showcase my abilities and useful
+        skills I obtained in life. This website is for my assignment and it is
+        made using HTML, CSS and JAVA.
+
+        testing on how the website should look like. It is
+        inspired from the Java LinkedIn Learning and it will be changed
+        upon further development.</p>
+      </div>
+    </main>
+    <div class="parallax"></div>
+    <main class="about">
+      <h2 id="page-about">About</h2>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="about-img1">
+            <img src="about_1.jpg" width="30%">
+          </div>
+          <p style="text-align:center"><b>About me</b></p>
+          <p style="text-align:center">This is me, I am a student of Ngee Ann Polytechnic who is taking
+             the Common Engineering Course and I aspire to become an engineer. 
+             I hope to know more about my interest and understand what it takes
+             to be an engineer</p>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="about-img2">
+            <img src="about_2.png" width="60%">
+          </div>
+          <p style="text-align:center"><b>Skills</b></p>
+          <p style="text-align:center">I have learnt a couple of skills over the years which leads me to where I am today</p>
+          <p style="text-align:center">Innovative: I learnt how to think of many ideas for a problem</p>
+          <p style="text-align:center">Programming: I learnt how to use coding to bring my projects to life</p>
+          <p style="text-align:center">Designing: I learnt how to design ideas to make sure my item works</p>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="about-img">
+            <img src="about_3.jpg">
+          </div>
+          <p style="text-align:center"><b>Hobbies/Interest</b></p>
+          <p style="text-align:center">As a kid, I was interested in collecting LEGO and building the pieces 
+            to create a structure of my imaginations. When I started to build my first LEGO Technic set, that's
+            where I became interested in the vehicles' mechanics. I extended my interest by building other things 
+            such as mechs</p>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+    </main>
+    <div class="parallax"></div>
+    <main class="achievement">
+      <div class="achieve-page">
+        <h2 id="page-achieve">Achievement</h2>
+        <p style="text-align:center"><b>My Achievements</b></p>
+        <div class="row">
+          <div class="achieve-sec">
+            <div class="achieve-img">
+              <img src="Achievement.webp">
+            </div>
+            <p>This is my EduSave Award in 2017</p>
+          </div>
+          <div class="achieve-sec">
+            <div class="achieve-img">
+              <img src="Achievement.webp">
+            </div>
+            <p>This is my EduSave Award in 2018</p>
+          </div>
+          <div class="achieve-sec">
+            <div class="achieve-img">
+              <img src="Achievement.webp">
+            </div>
+            <p>This is my EduSave Award in 2017</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="parallax"></div>
+    <main class="others">
+      <div class="others-page">
+        <h2 id="page-others">Others</h2>
+        <p style="text-align:center">This shows all of my work that I have done over the years. I'm showing my best 2 projects and the 
+          rest are in the youtube link</p>
+        <div class="otherpage">
+          <div class="otherpage1">
+            <div class="other_img1">
+              <img src="other_1.jpg" width="80%">
+            </div>
+            <p>This is my project in 2021 where I made an electric toy car</p>
+          </div>
+          <div class="otherpages2">
+            <div class="other_img2">
+              <img src="other_2.jpg" width="70%">
+            </div>
+            <p>This is my project in 2016 where I made a lego mech</p>
+          </div>
+        </div>
+        <nav class="other-nav">
+          <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">Youtube Link</a>
+        </nav>
+        <div class="YT_desc">
+          <p>Youtube Link for ALL of  my projects</p>
+        </div>
+      </div>
+    </main>
+    <div class="parallax"></div>
+    <main class="contact">
+      <div class="contact-page">
+        <h2 id="page-contact">Contact</h2>
+        <div class="contacts">
+          <div class="links">
+            <p>Number: 92837465</p>
+            <p>Instagram: @matthewtan</p>
+          </div>
+          <div class="gmail">
+            <p>LinkedIn: http://linkedin.com/in/martin-12345678a</p>
+            <p>Gmail: martinemail@connect.np.edu.sg</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="parallax"></div>
+  </body>
+</html>
